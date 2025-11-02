@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення - Кросівки Nike</title>
+    <link rel="stylesheet" href="/css/order.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/imeges/logo.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a class="main" href="/html/zwei.html">Головна сторінка</a></li>
+                <li><a class="benefits" href="/html/benefitsukr.html">Вигода</a></li>
+                <li><a class="advantages" href="/html/Advantagesukr.html">Переваги</a></li>
+                <li><a class="reviews" href="/html/reviewsukr.html">Відгуки</a></li>
+                <li><a class="contacts" href="/html/contactsukr.html">Контакти</a></li>
+                <li><a class="order" href="/html/orderukr.html">Друге</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a class="ua" href="/html/orderukr.html">Укр</a>  <a class="eng" class="active" href="/html/order.html">Англ</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Замовляйте улюблені кросівки Nike</h1>
+        <p>Перегляньте нашу колекцію високопродуктивних кросівок.</p>
+    </section>
+
+    <section id="products">
+        <h2>Наші кросівки</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="/imeges/shopping.webp" alt="Sneaker 1">
+                <h3 class="proda">Nike Air Max</h3>
+                <p>6.299 UAN</p>
+            </div>
+            <div class="product">
+                <img src="/imeges/shopping (1).webp" alt="Sneaker 2">
+                <h3>Nike Zoom Fly</h3>
+                <p>7.499 UAN</p>
+            </div>
+            <div class="product">
+                <img src="/imeges/shopping (2).webp" alt="Sneaker 3">
+                <h3>Nike Pegasus</h3>
+                <p>5.399 UAN</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Зробіть замовлення</h2>
+        <form action="#" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label class="alba" for="product">Виберіть продукт:</label>
+            <select id="product" name="product" required>
+                <option value="air-max">Nike Air Max</option>
+                <option value="zoom-fly">Nike Zoom Fly</option>
+                <option value="pegasus">Nike Pegasus</option>
+            </select>
+
+            <label for="quantity">Кількість:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+            <button type="submit">Надіслати замовлення</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <p>Маєш питання?</p>
+            <p>Маєте пропозицію щодо співпраці?</p>
+            <p>Рекламні питання?</p>
+          </div>
+          <div class="footer-column">
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_support@gmail.com</a></p>
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_Cooperation@gmail.com</a></p>
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_Advertising@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>2022 ColoRawe Всі права захищені<br>Сполучені Штати Америки</p>
+            <img src="/imeges/logo.png" alt="Logo">
+        </div>
+      </footer>
+</body>
+</html>

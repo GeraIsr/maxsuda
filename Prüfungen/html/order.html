@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Nike Sneakers</title>
+    <link rel="stylesheet" href="/css/order.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/imeges/logo.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a class="main" href="/html/index.html">Main page</a></li>
+                <li><a class="benefits" href="/html/benefits.html">Benefits</a></li>
+                <li><a class="advantages" href="/html/Advantages.html">Advantages</a></li>
+                <li><a class="reviews" href="/html/reviews.html">Reviews</a></li>
+                <li><a class="contacts" href="/html/contacts.html">Contacts</a></li>
+                <li><a class="order" href="/html/order.html">Order</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a class="ua" href="/html/orderukr.html">Ua</a>  <a class="eng" class="active" href="/html/order.html">Eng</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Order Your Favorite Nike Sneakers</h1>
+        <p>Browse through our collection of high-performance sneakers.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Sneakers</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="/imeges/shopping.webp" alt="Sneaker 1">
+                <h3>Nike Air Max</h3>
+                <p>$150</p>
+            </div>
+            <div class="product">
+                <img src="/imeges/shopping (1).webp" alt="Sneaker 2">
+                <h3>Nike Zoom Fly</h3>
+                <p>$180</p>
+            </div>
+            <div class="product">
+                <img src="/imeges/shopping (2).webp" alt="Sneaker 3">
+                <h3>Nike Pegasus</h3>
+                <p>$130</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label class="alba" for="product">Select Product:</label>
+            <select id="product" name="product" required>
+                <option value="air-max">Nike Air Max</option>
+                <option value="zoom-fly">Nike Zoom Fly</option>
+                <option value="pegasus">Nike Pegasus</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-column">
+            <p>Have a question?</p>
+            <p>Have a proposal for cooperation?</p>
+            <p>Advertising questions?</p>
+          </div>
+          <div class="footer-column">
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_support@gmail.com</a></p>
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_Cooperation@gmail.com</a></p>
+            <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ColoRawe_Advertising@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>2022 ColoRawe All rights reserved<br>United States</p>
+            <img src="/imeges/logo.png" alt="Logo">
+        </div>
+      </footer>
+</body>
+</html>

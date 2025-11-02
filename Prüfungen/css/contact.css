@@ -1,0 +1,199 @@
+*{
+    color: #FFFFFF
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background-color: #002a5e;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px; 
+    height: 60px;
+    margin-left: 178px;
+    margin-right: 122px;
+}
+.mine{
+    background-image: url(/imeges/viersec.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+#contacts{
+    color: black;
+}
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wite;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+
+.language-switcher a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language-switcher a.active {
+    text-decoration: underline;
+}
+
+.language-switcher a:hover {
+    color: #00d9ff;
+}
+.main{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.benefits{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.advantages{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.reviews{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contacts{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.order{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-right: 73px;
+}
+.ua{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.eng{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Стили формы */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #f04d4d;
+}
+
+.footer {
+    background-color: #002a5e;
+    padding: 20px;
+}
+  
+.footer-content {
+    margin: 0 auto;
+    padding: 50px 164px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #FFFFFF;
+    /* margin-bottom: 20px; */
+}
+  
+.footer-column a{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer-column p{
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+
+}
+.footer-bottom {
+    border-top: 1px solid #9B9B9B;
+    margin: 0 165px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ccc;
+}

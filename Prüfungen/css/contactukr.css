@@ -1,0 +1,247 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background-color: #002a5e;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px; 
+    height: 60px;
+    margin-left: 178px;
+    margin-right: 122px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wite;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+
+.language-switcher a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language-switcher a.active {
+    text-decoration: underline;
+}
+
+.language-switcher a:hover {
+    color: #00d9ff;
+}
+.main{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.benefits{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.advantages{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.reviews{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contacts{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.order{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-right: 73px;
+}
+.ua{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.eng{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.mine{
+    background-image: url(/imeges/sec3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+#hero {
+    background: url('sneakers.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+#hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #021635;
+    z-index: 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+#hero p {
+    font-size: 1.2em;
+    z-index: 1;
+    position: relative;
+}
+
+#reviews, #features {
+    padding: 40px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#reviews h2, #features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review h3 {
+    margin: 0;
+    color: #555;
+}
+
+.review p {
+    margin-top: 5px;
+    font-style: italic;
+    color: #777;
+}
+#features ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#features ul li {
+    background: #00bcd4;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    flex: 1 1 30%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background 0.3s;
+}
+
+#features ul li:hover {
+    transform: translateY(-5px);
+    background: #0288d1;
+}
+.footer {
+    background-color: #002a5e;
+    padding: 20px;
+}
+  
+.footer-content {
+    margin: 0 auto;
+    padding: 50px 164px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #FFFFFF;
+    /* margin-bottom: 20px; */
+}
+  
+.footer-column a{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer-column p{
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+
+}
+.footer-bottom {
+    border-top: 1px solid #9B9B9B;
+    margin: 0 165px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ccc;
+}
+label,input{
+    color: black;
+}

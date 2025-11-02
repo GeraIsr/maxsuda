@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background-color: #002a5e;
+    padding: 10px 20px;
+}
+.mine{
+    color: #FFFFFF;
+    background-image: url(/imeges/section1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo img {
+    width: 100px; 
+    height: 60px;
+    margin-left: 178px;
+    margin-right: 122px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wite;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+
+.language-switcher a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language-switcher a.active {
+    text-decoration: underline;
+}
+
+.language-switcher a:hover {
+    color: #00d9ff;
+}
+.main{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.benefits{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.advantages{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.reviews{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contacts{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.order{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-right: 73px;
+}
+.ua{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.eng{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+main {
+    padding: 2rem 0;
+}
+.hero_section img{
+    width: 250px;
+    height: 250px;
+}
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+section img {
+    width: 250px;
+    max-width: 400px;
+    height: 250px;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #0A1637; 
+    padding: 20px;
+}
+  
+.footer-content {
+    margin: 0 auto;
+    padding: 50px 164px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+  
+.footer-column a{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer-column p{
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+
+}
+.footer-bottom {
+    border-top: 1px solid #9B9B9B;
+    margin: 0 165px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ccc;
+}
+.Advantages{
+    width: 250px;
+    height: 250px;
+}

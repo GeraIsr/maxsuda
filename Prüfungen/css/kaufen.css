@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: white;
+    background-color: #021635;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #002a5e;
+}
+
+.logo img {
+    width: 100px; 
+    height: 60px;
+    margin-left: 178px;
+    margin-right: 122px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wite;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+
+.language-switcher a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language-switcher a.active {
+    text-decoration: underline;
+}
+
+.language-switcher a:hover {
+    color: #00d9ff;
+}
+.main{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}    
+.benefits{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.advantages{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.reviews{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.contacts{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.order{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-right: 73px;
+}
+.ua{
+    color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.eng{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.hero_section{
+    width: 100%;
+    background-color: #021635;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.shoe-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.shoe-card:hover {
+    transform: scale(1.05);
+}
+
+.shoe-image {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shoe-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.shoe-price {
+    color: #28a745;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+
+
+.hero_section2{
+    width: 100%;
+    background-color: #021635;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.shoe-container2{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe-card2{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.shoe-card2:hover{
+    transform: scale(1.05);
+}
+
+.shoe-image2{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shoe-name2{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.shoe-price2{
+    color: #28a745;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.hero_section3{
+    width: 100%;
+    background-color: #021635;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shoe-container3{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe-card3{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.shoe-card3:hover{
+    transform: scale(1.05);
+}
+
+.shoe-image3{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shoe-name3{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.shoe-price3{
+    color: #28a745;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #002a5e;
+    padding: 20px;
+}
+  
+.footer-content {
+    margin: 0 auto;
+    padding: 50px 164px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+  
+.footer-column a{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.footer-column p{
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+
+}
+.footer-bottom {
+    border-top: 1px solid #9B9B9B;
+    margin: 0 165px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ccc;
+}
